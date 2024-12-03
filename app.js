@@ -273,9 +273,9 @@ function renderProducts() {
                         <label>Price Range:</label>
                         <select id="price-filter" onchange="applyFilters()">
                             <option value="all">All</option>
-                            <option value="130-135">€130-€135</option>
-                            <option value="136-140">€136-€140</option>
-                            <option value="141-145">€141-€145</option>
+                            <option value="120-125">€120-€125</option>
+                            <option value="126-130">€126-€130</option>
+                            <option value="131-135">€131-€135</option>
                         </select>
                     </div>
                 </div>
@@ -287,7 +287,7 @@ function renderProducts() {
                         </div>
                         <div class="collection-info">
                             <h3>Three-eyed panda</h3>
-                            <p>€142</p>
+                            <p>€124</p>
                         </div>
                     </div>
 
@@ -297,7 +297,7 @@ function renderProducts() {
                         </div>
                         <div class="collection-info">
                             <h3>Knife edge</h3>
-                            <p>€136</p>
+                            <p>€122</p>
                         </div>
                     </div>
 
@@ -307,7 +307,7 @@ function renderProducts() {
                         </div>
                         <div class="collection-info">
                             <h3>JUDGE</h3>
-                            <p>€139</p>
+                            <p>€126</p>
                         </div>
                     </div>
 
@@ -317,7 +317,7 @@ function renderProducts() {
                         </div>
                         <div class="collection-info">
                             <h3>CRUSH</h3>
-                            <p>€138</p>
+                            <p>€120</p>
                         </div>
                     </div>
 
@@ -327,7 +327,7 @@ function renderProducts() {
                         </div>
                         <div class="collection-info">
                             <h3>D-line(pointer style)</h3>
-                            <p>€145</p>
+                            <p>€132</p>
                         </div>
                     </div>
 
@@ -337,7 +337,7 @@ function renderProducts() {
                         </div>
                         <div class="collection-info">
                             <h3>D-line(digital display)</h3>
-                            <p>€145</p>
+                            <p>€132</p>
                         </div>
                     </div>
 
@@ -347,7 +347,7 @@ function renderProducts() {
                         </div>
                         <div class="collection-info">
                             <h3>BOMB MECHANICAL WATCH(first gen)</h3>
-                            <p>€138</p>
+                            <p>€122</p>
                         </div>
                     </div>
 
@@ -357,7 +357,7 @@ function renderProducts() {
                         </div>
                         <div class="collection-info">
                             <h3>BOMB MECHANICAL WATCH(second gen)</h3>
-                            <p>€139</p>
+                            <p>€123</p>
                         </div>
                     </div>
 
@@ -367,7 +367,7 @@ function renderProducts() {
                         </div>
                         <div class="collection-info">
                             <h3>FOSSILS SHOW THE PASSAGE OF TIME(CIRCLE)</h3>
-                            <p>€132</p>
+                            <p>€122</p>
                         </div>
                     </div>
 
@@ -377,7 +377,7 @@ function renderProducts() {
                         </div>
                         <div class="collection-info">
                             <h3>FOSSILS SHOW THE PASSAGE OF TIME(SQUARE)</h3>
-                            <p>€132</p>
+                            <p>€122</p>
                         </div>
                     </div>
 
@@ -387,7 +387,7 @@ function renderProducts() {
                         </div>
                         <div class="collection-info">
                             <h3>VINTAGE COLOR-CHANGING DIAL</h3>
-                            <p>€132</p>
+                            <p>€122</p>
                         </div>
                     </div>
 
@@ -397,7 +397,7 @@ function renderProducts() {
                         </div>
                         <div class="collection-info">
                             <h3>ALIEN</h3>
-                            <p>€136</p>
+                            <p>€124</p>
                         </div>
                     </div>
                 </div>
@@ -415,7 +415,7 @@ const collections = {
         products: [
             {
                 name: "WHITE",
-                price: 142,
+                price: 124,
                 images: [
                     'https://i.ibb.co/R28pmdW/20241126223155.jpg',
                     'https://i.ibb.co/V334t48/20241127000338.jpg',
@@ -425,7 +425,7 @@ const collections = {
             },
             {
                 name: "BLUE",
-                price: 142,
+                price: 124,
                 images: [
                     'https://i.ibb.co/HgKG7Gr/20241126223221.jpg',
                     'https://i.ibb.co/V334t48/20241127000338.jpg',
@@ -435,7 +435,7 @@ const collections = {
             },
             {
                 name: "BLACK",
-                price: 142,
+                price: 124,
                 images: [
                     'https://i.ibb.co/cLGMHD3/20241126223237.jpg',
                     'https://i.ibb.co/V334t48/20241127000338.jpg',
@@ -450,7 +450,7 @@ const collections = {
         products: [
             {
                 name: "BLUE",
-                price: 136,
+                price: 122,
                 images: [
                     'https://i.ibb.co/jTLNmRr/20241126223026.jpg',
                     'https://i.ibb.co/jwDHzXw/20241126223132.jpg',
@@ -460,7 +460,7 @@ const collections = {
             },
             {
                 name: "WHITE",
-                price: 136,
+                price: 122,
                 images: [
                     'https://i.ibb.co/kc6Ty1w/20241126223105.jpg',
                     'https://i.ibb.co/jwDHzXw/20241126223132.jpg',
@@ -470,7 +470,7 @@ const collections = {
             },
             {
                 name: "BLACK",
-                price: 136,
+                price: 122,
                 images: [
                     'https://i.ibb.co/Y8qs0zW/20241126223134.jpg',
                     'https://i.ibb.co/jwDHzXw/20241126223132.jpg',
@@ -485,7 +485,7 @@ const collections = {
         products: [
             {
                 name: "SILVER AND BLACK",
-                price: 139,
+                price: 125,
                 images: [
                     'https://i.ibb.co/HY8zVd3/20241128001514.jpg',
                     'https://i.ibb.co/zbkHsJZ/20241128001518.jpg',
@@ -495,7 +495,7 @@ const collections = {
             },
             {
                 name: "BLACK",
-                price: 139,
+                price: 125,
                 images: [
                     'https://i.ibb.co/qCVZcHw/20241128001515.jpg',
                     'https://i.ibb.co/zbkHsJZ/20241128001518.jpg',
@@ -505,7 +505,7 @@ const collections = {
             },
             {
                 name: "BLUE",
-                price: 139,
+                price: 125,
                 images: [
                     'https://i.ibb.co/6JnswMc/20241128001516.jpg',
                     'https://i.ibb.co/zbkHsJZ/20241128001518.jpg',
@@ -515,7 +515,7 @@ const collections = {
             },
             {
                 name: "COPPER GOLD",
-                price: 139,
+                price: 125,
                 images: [
                     'https://i.ibb.co/cLjkvcC/20241128001517.jpg',
                     'https://i.ibb.co/zbkHsJZ/20241128001518.jpg',
@@ -530,7 +530,7 @@ const collections = {
         products: [
             {
                 name: "BLACK",
-                price: 138,
+                price: 120,
                 images: [
                     'https://i.ibb.co/CsMTgXy/20241127000607.jpg',
                     'https://i.ibb.co/t3QG6bN/20241127000618.jpg',
@@ -539,7 +539,7 @@ const collections = {
             },
             {
                 name: "WHITE",
-                price: 138,
+                price: 120,
                 images: [
                     'https://i.ibb.co/X5k8JzF/20241127000610.jpg',
                     'https://i.ibb.co/1z7TnsP/20241127000720.jpg',
@@ -548,7 +548,7 @@ const collections = {
             },
             {
                 name: "BLUE",
-                price: 138,
+                price: 120,
                 images: [
                     'https://i.ibb.co/NKYW8tJ/20241128001024.jpg',
                     'https://i.ibb.co/SBqhSYp/20241128001522.jpg'
@@ -561,7 +561,7 @@ const collections = {
         products: [
             {
                 name: "BLACK",
-                price: 145,
+                price: 132,
                 images: [
                     'https://i.ibb.co/LvTtsy0/20241127000838.jpg',
                     'https://i.ibb.co/0cgK6wj/20241127000819.jpg'
@@ -569,7 +569,7 @@ const collections = {
             },
             {
                 name: "SILVER",
-                price: 145,
+                price: 132,
                 images: [
                     'https://i.ibb.co/7SQx6kh/20241127000811.jpg',
                     'https://i.ibb.co/QnVkJDr/20241127000801.jpg'
@@ -582,7 +582,7 @@ const collections = {
         products: [
             {
                 name: "BLACK",
-                price: 145,
+                price: 132,
                 images: [
                     'https://i.ibb.co/kcC8Fnp/20241127000845.jpg',
                     'https://i.ibb.co/sqc75VG/20241127000835.jpg'
@@ -595,7 +595,7 @@ const collections = {
         products: [
             {
                 name: "BLACK",
-                price: 138,
+                price: 122,
                 images: [
                     'https://i.ibb.co/GRS0jyF/20241126230457.jpg',
                     'https://i.ibb.co/wKWQZHy/20241127000247.jpg'
@@ -603,7 +603,7 @@ const collections = {
             },
             {
                 name: "BLUE",
-                price: 138,
+                price: 122,
                 images: [
                     'https://i.ibb.co/729zsY3/20241127000236.jpg',
                     'https://i.ibb.co/yn8GzTf/20241126223016.jpg'
@@ -611,7 +611,7 @@ const collections = {
             },
             {
                 name: "GREEN",
-                price: 138,
+                price: 122,
                 images: [
                     'https://i.ibb.co/g9nRYj3/20241126230550.jpg',
                     'https://i.ibb.co/jJQQJq8/20241127000238.jpg'
@@ -624,35 +624,35 @@ const collections = {
         products: [
             {
                 name: "RED",
-                price: 139,
+                price: 123,
                 images: [
                     'https://i.ibb.co/DR8xnPg/20241126223052.jpg'
                 ]
             },
             {
                 name: "GREEN",
-                price: 139,
+                price: 123,
                 images: [
                     'https://i.ibb.co/VxYcm9W/20241126223104.jpg'
                 ]
             },
             {
                 name: "BLUE",
-                price: 139,
+                price: 123,
                 images: [
                     'https://i.ibb.co/sVbKdXY/20241126223126.jpg'
                 ]
             },
             {
                 name: "YEWLLOW",
-                price: 139,
+                price: 123,
                 images: [
                     'https://i.ibb.co/dDXSQpy/20241126223128.jpg'
                 ]
             },
             {
                 name: "WHITE",
-                price: 139,
+                price: 123,
                 images: [
                     'https://i.ibb.co/JF0NZMq/20241126223138.jpg'
                 ]
@@ -664,28 +664,28 @@ const collections = {
         products: [
             {
                 name: "BLUE",
-                price: 132,
+                price: 122,
                 images: [
                     'https://i.ibb.co/HFpsSyK/20241127000429.jpg'
                 ]
             },
             {
                 name: "RED",
-                price: 132,
+                price: 122,
                 images: [
                     'https://i.ibb.co/R45pMRF/20241127000424.jpg'
                 ]
             },
             {
                 name: "WHITE",
-                price: 132,
+                price: 122,
                 images: [
                     'https://i.ibb.co/18pt6gr/20241127000556.jpg'
                 ]
             },
             {
                 name: "BLACK",
-                price: 132,
+                price: 122,
                 images: [
                     'https://i.ibb.co/ynR27Wf/20241127000600.jpg'
                 ]
@@ -697,7 +697,7 @@ const collections = {
         products: [
             {
                 name: "RED",
-                price: 132,
+                price: 122,
                 images: [
                     'https://i.ibb.co/C7h4hJR/20241126223209.jpg',
                     'https://i.ibb.co/5kWbmcQ/20241127000451.jpg'
@@ -705,7 +705,7 @@ const collections = {
             },
             {
                 name: "BLUE",
-                price: 132,
+                price: 122,
                 images: [
                     'https://i.ibb.co/8xCZfJ5/20241127000515.jpg',
                     'https://i.ibb.co/5kWbmcQ/20241127000451.jpg'
@@ -713,7 +713,7 @@ const collections = {
             },
             {
                 name: "WHITE",
-                price: 132,
+                price: 122,
                 images: [
                     'https://i.ibb.co/JRzXjxf/20241127000508.jpg',
                     'https://i.ibb.co/5kWbmcQ/20241127000451.jpg'
@@ -721,7 +721,7 @@ const collections = {
             },
             {
                 name: "BLACK",
-                price: 132,
+                price: 122,
                 images: [
                     'https://i.ibb.co/vcgv7ZY/20241128001523.jpg',
                     'https://i.ibb.co/5kWbmcQ/20241127000451.jpg'
@@ -734,7 +734,7 @@ const collections = {
         products: [
             {
                 name: "BLUE",
-                price: 132,
+                price: 122,
                 images: [
                     'https://i.ibb.co/rQrvk7T/20241127000621.jpg',
                     'https://i.ibb.co/kShjNF5/20241127000512.jpg',
@@ -743,7 +743,7 @@ const collections = {
             },
             {
                 name: "RED",
-                price: 132,
+                price: 122,
                 images: [
                     'https://i.ibb.co/th4DZSL/20241127000619.jpg',
                     'https://i.ibb.co/3dJQYr1/20241127000526.jpg'
@@ -756,7 +756,7 @@ const collections = {
         products: [
             {
                 name: "BLACK AND GOLD",
-                price: 136,
+                price: 124,
                 images: [
                     'https://i.ibb.co/5YXs5W2/20241127000701.jpg',
                     'https://i.ibb.co/8D8Q6HY/20241127000655.jpg',
@@ -766,7 +766,7 @@ const collections = {
             },
             {
                 name: "BLUE AND BLACK",
-                price: 136,
+                price: 124,
                 images: [
                     'https://i.ibb.co/RDtn60M/20241127000725.jpg',
                     'https://i.ibb.co/dfRvntW/20241127000741.jpg',
@@ -776,7 +776,7 @@ const collections = {
             },
             {
                 name: "WHITE AND BLACK",
-                price: 136,
+                price: 124,
                 images: [
                     'https://i.ibb.co/fGRnk9S/20241127000733.jpg',
                     'https://i.ibb.co/CmL3hfW/20241127000639.jpg',
